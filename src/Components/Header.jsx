@@ -13,6 +13,15 @@ export default function Header() {
       <NavLink className="mx-2" to="/register">
         Register
       </NavLink>
+      <NavLink className="mx-2" to="/signup">
+        Sign Up
+      </NavLink>
+      <NavLink className="mx-2" to="/signin">
+        Sign in
+      </NavLink>
+      <NavLink className="mx-2" to="/orders">
+        Orders
+      </NavLink>
     </div>
   );
 }
